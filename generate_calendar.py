@@ -34,10 +34,10 @@ def add_event(year, month, day, description, is_holiday, is_weekend):
     
     if is_holiday:
         event_type = "Rest"
-        subject = f"休息: {description}" if description else "休息"
+        subject = "休息"
     elif is_weekend and not is_holiday:
         event_type = "Work"
-        subject = f"班: {description}" if description else "班"
+        subject = "班"
     
     # If it's a normal weekday (Mon-Fri) and not holiday, we usually don't mark it, 
     # unless there is a specific description we want to keep?

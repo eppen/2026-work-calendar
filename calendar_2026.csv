@@ -2,7 +2,7 @@
 休息,2026-01-01,True,,Rest
 休息,2026-01-02,True,,Rest
 休息,2026-01-03,True,,Rest
-班: 十六,2026-01-04,True,十六,Work
+班,2026-01-04,True,十六,Work
 休息,2026-02-01,True,,Rest
 休息,2026-03-01,True,,Rest
 休息,2026-01-10,True,,Rest
@@ -11,11 +11,11 @@
 休息,2026-02-08,True,,Rest
 休息,2026-03-07,True,,Rest
 休息,2026-03-08,True,,Rest
-班: 廿九,2026-01-17,True,廿九,Work
+班,2026-01-17,True,廿九,Work
 休息,2026-01-18,True,,Rest
-班: 情人节,2026-02-14,True,情人节,Work
+班,2026-02-14,True,情人节,Work
 休息,2026-02-15,True,,Rest
-班: 廿六,2026-03-14,True,廿六,Work
+班,2026-03-14,True,廿六,Work
 休息,2026-03-15,True,,Rest
 休息,2026-01-24,True,,Rest
 休息,2026-01-25,True,,Rest
@@ -28,66 +28,66 @@
 休息,2026-02-22,True,,Rest
 休息,2026-03-21,True,,Rest
 休息,2026-03-22,True,,Rest
-班: 十三,2026-01-31,True,十三,Work
+班,2026-01-31,True,十三,Work
 休息,2026-02-23,True,,Rest
-班: 十二,2026-02-28,True,十二,Work
-班: 初十,2026-03-28,True,初十,Work
+班,2026-02-28,True,十二,Work
+班,2026-03-28,True,初十,Work
 休息,2026-03-29,True,,Rest
 休息,2026-04-04,True,,Rest
 休息,2026-04-05,True,,Rest
-休息: 十九,2026-04-06,True,十九,Rest
-班: 廿四,2026-04-11,True,廿四,Work
-休息: 廿五,2026-04-12,True,廿五,Rest
+休息,2026-04-06,True,十九,Rest
+班,2026-04-11,True,廿四,Work
+休息,2026-04-12,True,廿五,Rest
 休息,2026-04-18,True,,Rest
 休息,2026-04-19,True,,Rest
-班: 初九,2026-04-25,True,初九,Work
+班,2026-04-25,True,初九,Work
 休息,2026-04-26,True,,Rest
 休息,2026-05-01,True,,Rest
 休息,2026-05-02,True,,Rest
 休息,2026-05-03,True,,Rest
-休息: 青年节,2026-05-04,True,青年节,Rest
-休息: 立夏,2026-05-05,True,立夏,Rest
-班: 廿三,2026-05-09,True,廿三,Work
-休息: 母亲节,2026-05-10,True,母亲节,Rest
+休息,2026-05-04,True,青年节,Rest
+休息,2026-05-05,True,立夏,Rest
+班,2026-05-09,True,廿三,Work
+休息,2026-05-10,True,母亲节,Rest
 休息,2026-05-16,True,,Rest
 休息,2026-05-17,True,,Rest
-班: 初七,2026-05-23,True,初七,Work
+班,2026-05-23,True,初七,Work
 休息,2026-05-24,True,,Rest
 休息,2026-05-30,True,,Rest
 休息,2026-05-31,True,,Rest
-班: 廿一,2026-06-06,True,廿一,Work
+班,2026-06-06,True,廿一,Work
 休息,2026-06-07,True,,Rest
-休息: 廿八,2026-06-13,True,廿八,Rest
-休息: 廿九,2026-06-14,True,廿九,Rest
+休息,2026-06-13,True,廿八,Rest
+休息,2026-06-14,True,廿九,Rest
 休息,2026-06-19,True,,Rest
 休息,2026-06-20,True,,Rest
 休息,2026-06-21,True,,Rest
 休息,2026-06-27,True,,Rest
 休息,2026-06-28,True,,Rest
-班: 二十,2026-07-04,True,二十,Work
+班,2026-07-04,True,二十,Work
 休息,2026-07-05,True,,Rest
 休息,2026-07-11,True,,Rest
 休息,2026-07-12,True,,Rest
-班: 初五,2026-07-18,True,初五,Work
+班,2026-07-18,True,初五,Work
 休息,2026-07-19,True,,Rest
 休息,2026-07-25,True,,Rest
 休息,2026-07-26,True,,Rest
-班: 建军节,2026-08-01,True,建军节,Work
+班,2026-08-01,True,建军节,Work
 休息,2026-08-02,True,,Rest
 休息,2026-08-08,True,,Rest
 休息,2026-08-09,True,,Rest
-班: 初三,2026-08-15,True,初三,Work
+班,2026-08-15,True,初三,Work
 休息,2026-08-16,True,,Rest
 休息,2026-08-22,True,,Rest
 休息,2026-08-23,True,,Rest
-班: 十七,2026-08-29,True,十七,Work
+班,2026-08-29,True,十七,Work
 休息,2026-08-30,True,,Rest
 休息,2026-09-05,True,,Rest
 休息,2026-09-06,True,,Rest
-班: 初二,2026-09-12,True,初二,Work
+班,2026-09-12,True,初二,Work
 休息,2026-09-13,True,,Rest
 休息,2026-09-19,True,,Rest
-班: 初十,2026-09-20,True,初十,Work
+班,2026-09-20,True,初十,Work
 休息,2026-09-25,True,,Rest
 休息,2026-09-26,True,,Rest
 休息,2026-09-27,True,,Rest
@@ -95,30 +95,30 @@
 休息,2026-10-02,True,,Rest
 休息,2026-10-03,True,,Rest
 休息,2026-10-04,True,,Rest
-休息: 廿五,2026-10-05,True,廿五,Rest
-休息: 廿六,2026-10-06,True,廿六,Rest
-休息: 廿七,2026-10-07,True,廿七,Rest
-班: 九月,2026-10-10,True,九月,Work
-休息: 初二,2026-10-11,True,初二,Rest
+休息,2026-10-05,True,廿五,Rest
+休息,2026-10-06,True,廿六,Rest
+休息,2026-10-07,True,廿七,Rest
+班,2026-10-10,True,九月,Work
+休息,2026-10-11,True,初二,Rest
 休息,2026-10-17,True,,Rest
 休息,2026-10-18,True,,Rest
-班: 十五,2026-10-24,True,十五,Work
+班,2026-10-24,True,十五,Work
 休息,2026-10-25,True,,Rest
 休息,2026-10-31,True,,Rest
 休息,2026-11-01,True,,Rest
-班: 立冬,2026-11-07,True,立冬,Work
-休息: 三十,2026-11-08,True,三十,Rest
+班,2026-11-07,True,立冬,Work
+休息,2026-11-08,True,三十,Rest
 休息,2026-11-14,True,,Rest
 休息,2026-11-15,True,,Rest
-班: 十三,2026-11-21,True,十三,Work
+班,2026-11-21,True,十三,Work
 休息,2026-11-22,True,,Rest
 休息,2026-11-28,True,,Rest
 休息,2026-11-29,True,,Rest
-班: 廿七,2026-12-05,True,廿七,Work
+班,2026-12-05,True,廿七,Work
 休息,2026-12-06,True,,Rest
-休息: 初四,2026-12-12,True,初四,Rest
-休息: 初五,2026-12-13,True,初五,Rest
-班: 十一,2026-12-19,True,十一,Work
+休息,2026-12-12,True,初四,Rest
+休息,2026-12-13,True,初五,Rest
+班,2026-12-19,True,十一,Work
 休息,2026-12-20,True,,Rest
 休息,2026-12-26,True,,Rest
 休息,2026-12-27,True,,Rest
