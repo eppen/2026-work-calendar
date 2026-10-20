@@ -9,6 +9,7 @@
 - ✅ 识别周末工作日（周六/周日需要上班的日子）
 - ✅ 生成标准ICS日历文件，可导入到Google Calendar、Outlook、Apple Calendar等
 - ✅ 生成CSV文件，方便数据分析和导入其他系统
+- ✅ 按 ISO 周汇总工作小时，并计算全年周平均工时
 
 ## 文件说明
 
@@ -16,11 +17,13 @@
 |--------|------|
 | `附件：2026年工作日历表.pdf` | 源PDF文件 |
 | `generate_calendar.py` | 主处理脚本，生成ICS和CSV文件 |
+| `calculate_weekly_hours.py` | 基于异常日CSV计算每周工时与周平均 |
 | `extract_pdf.py` | PDF文本提取测试脚本 |
 | `inspect_pdf_colors.py` | PDF颜色检测脚本 |
 | `test_tables.py` / `test_tables_2.py` | 表格解析测试脚本 |
 | `calendar_2026.ics` | 生成的ICS日历文件 |
 | `calendar_2026.csv` | 生成的CSV数据文件 |
+| `weekly_hours_2026.csv` | 每周工作日数与工时明细 |
 | `requirements.txt` | Python依赖包列表 |
 
 ## 快速开始
@@ -41,12 +44,26 @@ python generate_calendar.py
 - `calendar_2026.ics` - ICS日历文件
 - `calendar_2026.csv` - CSV数据文件
 
-### 3. 导入日历
+### 3. 计算周平均工作小时数
+
+需先有 `calendar_2026.csv`（上一步生成）：
+
+```bash
+python calculate_weekly_hours.py
+```
+
+运行后：
+- 终端打印全年工作日、总小时、周数、**周平均小时**
+- 生成 `weekly_hours_2026.csv`（每周明细）
+
+公式：每天按 8 小时；每周工时 = 该周工作日 × 8；周平均 = 全年总小时 ÷ 年内 ISO 周数。
+
+### 4. 导入日历
 
 - **ICS文件**：直接双击或导入到日历应用
 - **CSV文件**：使用Excel、Google Sheets等打开
 
-### 4. 导入到Google Calendar
+### 5. 导入到Google Calendar
 
 将生成的ICS文件导入Google Calendar的步骤：
 
@@ -102,6 +119,12 @@ python generate_calendar.py
 - `All Day Event`: 全天事件标记
 - `Description`: 事件描述（如农历日、节气等，如有）
 - `Type`: 事件类型 (Rest/Work)
+
+### 周工时 CSV（weekly_hours_2026.csv）字段
+- `ISO Year` / `ISO Week`: ISO 周年与周序号
+- `Week Start` / `Week End`: 该周在 2026 年内的实际起止日
+- `Work Days`: 该周工作日数
+- `Hours`: 该周工作小时（Work Days × 8）
 
 ## 开发说明
 
